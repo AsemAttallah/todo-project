@@ -1,0 +1,73 @@
+* {
+    font-family: cursive;
+}
+body {
+    padding: 10px;
+}
+header{
+    background-color: #cee0f1;
+}
+footer{
+    background-color: #cee0f1;
+}
+header p {
+    text-align: center;
+    font-size: 20px;
+    margin: 5px 10px 10px 10px;
+}
+header section img {
+    width: 100px;
+    height: 100px;
+    padding: 0%;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li.Home {
+    text-align: center;
+    margin: -60px 25px 14px 15px;
+    
+}
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    background-color: #01ad49;
+}
+header nav ul li.About {
+    text-align: right;
+    margin: -35px 70px 14px 15px;
+}
+
+main table tr.lol :hover {
+    background-color: #01ad49;
+}
+main table {
+   
+    margin-top: 100px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+
+}
+main p {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+   
+}
+
+body footer{
+    text-align: center;
+}
+
+main table {
+    border-width:2px;
+    border-color:black;
+    border-style: solid;
+}

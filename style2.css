@@ -1,0 +1,93 @@
+* {
+    font-family: cursive;
+}
+body {
+    padding: 10px;
+}
+header{
+    background-color: #cee0f1;
+}
+footer{
+    background-color: #cee0f1;
+}
+header p {
+    text-align: center;
+    font-size: 20px;
+    margin: 5px 10px 10px 10px;
+}
+header section img {
+    width: 100px;
+    height: 100px;
+    padding: 0%;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li.Home {
+    text-align: center;
+    margin: -60px 25px 14px 15px;
+    
+}
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    background-color: #01ad49;
+    font-weight: bold;
+}
+header nav ul li.About {
+    text-align: right;
+    margin: -35px 70px 14px 15px;
+}
+
+body footer{
+    text-align: center;
+}
+main section form input:hover {
+    background-color: #01ad49;
+
+}
+main section {
+    text-align: center ;
+}
+main section form label{
+    padding: 10px;
+}
+main section form input{
+    margin: 5px;
+}
+main section form input.message{
+    margin: 5px 5px 5px 5px;
+    padding: 0px 50px 100px 50px;
+    /* margin-left: 82px; */
+}
+
+main section form input.username{
+    position: relative;
+    margin-right: 33px;
+    
+}
+main section form label.message{
+    margin: 0px 0px 0px 80px;
+}
+main section form input.sub{
+    border: 2px;  
+    font-size :14.5px;
+    background-color: #cee0f1;
+}
+main section form input.sub:hover{
+    font-weight: bold;
+    background-color:#01ad49;
+}
+main section label:hover{
+    font-weight: bold;
+}
+main section p.a{
+    margin-top: 50px;
+}
