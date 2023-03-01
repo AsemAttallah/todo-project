@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do list website</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- <script src="./tes.js" ></script> -->
     <header>
         <p>To-do list website</p>
         <section>
-            <img src="https://th.bing.com/th/id/OIP.bfrT3plmoA8eO1eArhPBnwHaHa?w=178&h=180&c=7&r=0&o=5&pid=1.7"
+            <img class="logo"
+                src="https://th.bing.com/th/id/OIP.bfrT3plmoA8eO1eArhPBnwHaHa?w=178&h=180&c=7&r=0&o=5&pid=1.7"
                 alt="todo logo">
         </section>
         <nav>
@@ -24,30 +27,34 @@
         </nav>
     </header>
     <main>
-        <p><span>Write your tasks in the table below</span></p>
-        <table border="1">
-            <tr>
-                <th>Tasks</th>
-                <th>Status</th>
-            </tr>
-            <tr class="lol" >
-                <td><input type="text"></td>
-                <td><input type="checkbox"></td>
-            </tr>
-            <tr class="lol" >
-                <td><input type="text"></td>
-                <td><input type="checkbox"></td>
-            </tr>
-            <tr class="lol" >
-                <td><input type="text"></td>
-                <td><input type="checkbox"></td>
-            </tr>
-        </table>
+        <section>
+            <p><span>Write your tasks in the table below</span></p>
+        </section>
+        <section>
+            <table>
+                <tr>
+                    <th>Tasks</th>
+                    <th>Status</th>
+                </tr>
+                <tr class="lol">
+                    <td><input type="text"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="lol">
+                    <td><input type="text"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="lol">
+                    <td><input type="text"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </table>
+        </section>
     </main>
     <footer>
         &COPY; All Rights Reserved
     </footer>
-    
+
 </body>
 
 </html>

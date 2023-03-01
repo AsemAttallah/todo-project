@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do list website</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <header>
         <p>To-do list website</p>
         <section>
-            <img src="https://th.bing.com/th/id/OIP.bfrT3plmoA8eO1eArhPBnwHaHa?w=178&h=180&c=7&r=0&o=5&pid=1.7" alt="todo logo">
+            <img class="logo" src="https://th.bing.com/th/id/OIP.bfrT3plmoA8eO1eArhPBnwHaHa?w=178&h=180&c=7&r=0&o=5&pid=1.7" alt="todo logo">
         </section>
         <nav>
             <ul>
@@ -31,13 +32,14 @@
                 in your work by that to-do list.
             </p>
         </section>
+        <section class="p"><p class="a">You can contact me here : </p>
+        </section>
         <section>
-            <p class="a">You can contact me here : </p>
             <form>
                 <label class="username" for="user">Username</label>
                 <input type="text" class="username" id="user" required >
                 <br>
-                <label for="mail">E-mail</label>
+                <label class="email" for="mail">E-mail</label>
                 <input type="email" id="mail" required>
                 <br>
                 <label class="message" for="mes">Message</label>

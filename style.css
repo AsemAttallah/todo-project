@@ -1,73 +1,88 @@
-* {
-    font-family: cursive;
+:root{
+    --background:rgb(138, 228, 153);
+    --header :  rgb(206, 148, 148); 
 }
-body {
-    padding: 10px;
+
+
+body{
+ 
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    row-gap: 134px;
+    font-family: cursive;
+
 }
 header{
-    background-color: #cee0f1;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--header);
+    align-items: center;
 }
-footer{
-    background-color: #cee0f1;
+
+.logo {
+    width: 80px;
 }
-header p {
-    text-align: center;
-    font-size: 20px;
-    margin: 5px 10px 10px 10px;
+
+
+header p{
+    font-size: 22px;
+    order: 2;
+    align-self: center;
 }
-header section img {
-    width: 100px;
-    height: 100px;
-    padding: 0%;
-    margin-top: -50px;
-    margin-bottom: 20px;
+
+header section{
+    order: 1;
+}
+
+header nav{
+    display: flex;
+    order: 3;
+    align-items: center;
 }
 header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: ;
 }
-header nav ul li.Home {
-    text-align: center;
-    margin: -60px 25px 14px 15px;
-    
-}
-header nav ul li a {
-    color: black;
+header nav ul li a{
     text-decoration: none;
-}
-header nav ul li a:hover {
-    background-color: #01ad49;
-}
-header nav ul li.About {
-    text-align: right;
-    margin: -35px 70px 14px 15px;
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
 }
 
-main table tr.lol :hover {
-    background-color: #01ad49;
+header nav ul li a:hover{
+    background-color:var(--background);
 }
-main table {
-   
-    margin-top: 100px;
-    margin-right: auto;
-    margin-bottom: 100px;
-    margin-left: auto;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    row-gap: 9]px;
 
 }
-main p {
-    text-align: center;
-    margin-top: 100px;
-    font-size: 25px;
-   
+
+main table{
+    border: 4px rgb(206, 148, 148) solid;
+}
+main table th, td{
+    border: 4px rgb(206, 148, 148) solid;
+}
+main table tr.lol{
+    font-size: 10px;
 }
 
-body footer{
-    text-align: center;
+footer{
+    background-color: var(--header);
+    display: flex;
+    justify-content: center;
 }
 
-main table {
-    border-width:2px;
-    border-color:black;
-    border-style: solid;
-}
+
+
+
+
