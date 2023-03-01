@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do list website</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <header>
         <p>To-do list website</p>
         <section>
-            <img src="https://th.bing.com/th/id/OIP.bfrT3plmoA8eO1eArhPBnwHaHa?w=178&h=180&c=7&r=0&o=5&pid=1.7" alt="todo logo">
+            <img class="logo" src="https://th.bing.com/th/id/OIP.bfrT3plmoA8eO1eArhPBnwHaHa?w=178&h=180&c=7&r=0&o=5&pid=1.7" alt="todo logo">
         </section>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <li class="Home"><a href="index.html">Home</a></li>
+                <li class="About"><a href="about.html">About Us</a></li>
             </ul>
         </nav>
     </header>
@@ -30,26 +32,25 @@
                 in your work by that to-do list.
             </p>
         </section>
+        <section class="p"><p class="a">You can contact me here : </p>
+        </section>
         <section>
-            <p>You can contact me here : </p>
             <form>
-                <label>Username</label>
-                <input type="text">
+                <label class="username" for="user">Username</label>
+                <input type="text" class="username" id="user" required >
                 <br>
-                <label>E-mail</label>
-                <input type="email">
+                <label class="email" for="mail">E-mail</label>
+                <input type="email" id="mail" required>
                 <br>
-                <label>Message</label>
-                <input type="text">
+                <label class="message" for="mes">Message</label>
+                <input type="text" class="message" id="mes" required>
                 <br>
-                <input type="submit">
-                <input type="reset">
+                <input type="submit" class="sub">
+                <input type="reset" class="sub">
             </form>
         </section>
     </main>
     <footer>
-        <br>
-        <hr>
         &COPY; All Rights Reserved
     </footer>
 </body>

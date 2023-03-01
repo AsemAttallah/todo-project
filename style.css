@@ -1,0 +1,88 @@
+:root{
+    --background:rgb(138, 228, 153);
+    --header :  rgb(206, 148, 148); 
+}
+
+
+body{
+ 
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    row-gap: 134px;
+    font-family: cursive;
+
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--header);
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+
+header p{
+    font-size: 22px;
+    order: 2;
+    align-self: center;
+}
+
+header section{
+    order: 1;
+}
+
+header nav{
+    display: flex;
+    order: 3;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: ;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+header nav ul li a:hover{
+    background-color:var(--background);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    row-gap: 9]px;
+
+}
+
+main table{
+    border: 4px rgb(206, 148, 148) solid;
+}
+main table th, td{
+    border: 4px rgb(206, 148, 148) solid;
+}
+main table tr.lol{
+    font-size: 10px;
+}
+
+footer{
+    background-color: var(--header);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
